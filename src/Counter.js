@@ -28,7 +28,7 @@ function Counter() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h2>✏️ 입력한 내용:</h2>
+      <h2>✏️ 입력한 내용을 수정해봤어:</h2>
       <input
         type="text"
         value={text}
