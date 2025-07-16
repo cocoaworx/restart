@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+//import Welcome from './welcome'; // 추가된 줄
+import Counter from './Counter'; // 추가된 줄
 
 function App() {
+  //const yourName = "보볼";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <div>
+        <Counter />
+      </div>
     </div>
   );
 }
